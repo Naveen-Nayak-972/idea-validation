@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f3f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  textarea,
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="email"] {
+    margin-bottom: 15px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Additional Styles for Enhanced Visual Appeal */
+  
+  body {
+    background-image: linear-gradient(to bottom right, #65c3ba, #3698b4);
+  }
+  
+  .container {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #2c3e50;
+    margin-top: 0;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
